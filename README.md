@@ -1,26 +1,9 @@
 # Modelo classificador de fatores de rico para AVC
 ## Análise de fatores de risco para ter AVC, utilizando o dataset do Kaggle, arvore de decisão e gradiente descendente.
+### Resumo
+O presente trabalho consistiu na manipulação de dados do dataset "stroke prediction", presente no kaggle. Foi escolhido um subset equilibrado dos dados, para permitir o treinamento de dois modelos classificatórios: gradiente descendente e árvore de decisão. Para tanto foi utilizada uma implementação própria do algoritmo descendente, a versão do sklearn (para comparar com o modelo implementado) e a “decision tree” do sklearn. Para tanto, todos os dados numéricos foram categorizados e postos na forma de “one hot encoding”.  
 
-
-### Introdução  
-
-
-
-
-### Qual a idéia por trás do algoritmo?
-
-
-
-### O que é SVD?  
-
-$$ A = U \Sigma V^T $$  
-
-
-### Qual a vantagem de usar SVD?
-
-
-### Como funciona o algotimo?
-
+A partir da análise dos vetores de peso e importância das features, percebeu-se uma grande influência do fator idade (idoso, seguido de adulto), já ter fumado e apresentar um quadro de hipertensão. Apesar de alguns fatores serem conhecidos na literatura, a quantidade de dados disponíveis foi diminuta, de modo que a análise precisa de ser refinada, tendo em vista que fatores como “nível médio de glicose normal” figura como um fator de peso, o que vai de encontro com a literatura e mesmo o senso comum. 
 
 
 ### Como instalar?  
