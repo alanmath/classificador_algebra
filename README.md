@@ -7,7 +7,7 @@ A partir da análise dos vetores de peso e importância das features, percebeu-s
 
 
 ### Como instalar?  
-Para garantir o funcionamento da aplicação é recomedado a criação de um ambiente virtual (venv) para instalar as dependência, como apresentado em https://docs.python.org/3/library/venv.html.  
+Para garantir o funcionamento da aplicação é recomedado a criação de um ambiente virtual (venv) para instalar as dependência, como apresentado em https://docs.python.org/3/library/venv.html. Para esse projeto foi utilizado o python 3.8.10  
 Em seguida, deve-se ativar o ambiente virtual e instalar as dependências através do comando:  
 ```pip install -r requirements.txt```
 
