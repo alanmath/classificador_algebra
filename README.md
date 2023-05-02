@@ -12,3 +12,9 @@ Em seguida, deve-se ativar o ambiente virtual e instalar as dependências atrav�
 ```pip install -r requirements.txt```
 
 Protinho agora é só rodar o arquivo em sua IDE ou Jupyter notebook.
+
+
+### Referências 
+Artigo citado ao fim:  
+
+https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.114.010942
